@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AllergyFinder</string>
+    <string name="unlock">unlock</string>
+    <string name="confirm_pattern">confirm your pattern lock pin,Pattern or Password</string>
+    <string name="setting_label">![<![CDATA[ Please set the screen lock Manually to navigate to:Settings>security.]]></string>
+    <string name="unlock_success">App is unlocked Successfully</string>
+    <string name="unlock_failed">App Unlock failed</string>
+    <string name="device_is_secure">Device is now secure</string>
+    <string name="security_device_cancelled">device is  not secure or user cancel the request</string>
+    <string name="authenticate_again">Authenticate Again</string>
+
 </resources>
