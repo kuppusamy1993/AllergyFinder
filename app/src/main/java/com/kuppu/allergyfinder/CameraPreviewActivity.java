@@ -268,7 +268,6 @@ public class CameraPreviewActivity extends AppCompatActivity {
                         }
                             break;
                             case FirebaseVisionBarcode.TYPE_TEXT:
-                                Toast.makeText(CameraPreviewActivity.this, "start", Toast.LENGTH_SHORT).show();
                                 String data =barcode.getRawValue();
                                 String databarcode=barcode.getDisplayValue();
                                 mBarcodeDetectedListener.onIsbnDetected(barcode);
