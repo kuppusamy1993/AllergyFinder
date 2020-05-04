@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kuppu.allergyfinder.BarcodeActivity">
+
+    <item tools:ignore="MenuTitle"
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/accountprofile"
+        app:showAsAction="ifRoom"/>
+
+</menu>
