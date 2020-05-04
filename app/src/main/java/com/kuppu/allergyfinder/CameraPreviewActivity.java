@@ -279,8 +279,6 @@ public class CameraPreviewActivity extends AppCompatActivity {
                                         v.setTextColor(Color.RED);
                                         toast.show();
 
-                                        //ShowDialog();
-
                                     }
                                     if(databarcode.equals(itemname)){
                                         Toast toast = Toast.makeText(getApplicationContext(), "This food item contain Allergy incredients", Toast.LENGTH_SHORT);
